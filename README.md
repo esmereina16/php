@@ -12,3 +12,5 @@ El código que escribí usa Bootstrap para que se vea bien y sea fácil de usar.
 
 En resumen, fue un proyecto divertido y educativo. Aprendí mucho sobre cómo funcionan las bases de datos y cómo interactuar con ellas usando PHP. ¡Definitivamente quiero seguir aprendiendo más sobre desarrollo web!
 
+![image](https://github.com/user-attachments/assets/338c317d-c31d-4219-b3b8-a733721ff4eb)
+
