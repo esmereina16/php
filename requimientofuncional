@@ -37,3 +37,55 @@ Tener bien definidos los funcionales es esencial para que el sistema haga lo que
 Tener bien definidos los no funcionales es imprescindible para que lo haga bien: que sea rápido, seguro, usable, mantenible, confiable.
 Si ignorás los no funcionales, puede pasar que algo funcione pero sea tan lento, o inseguro, o difícil de usar, que termine siendo rechazado o genere muchos problemas.
 Ambos tipos van de la mano: uno define lo que se necesita hacer, el otro “la excelencia operativa”, digamos.
+
+
+
+
+
+Requerimientos del sistema - Proyecto Registro de Personas
+
+En este proyecto desarrollé un sistema web que permite registrar personas ingresando su nombre, apellido y edad, y visualizar estos registros en una tabla dinámica. A continuación detallo los requerimientos funcionales y no funcionales que definí para su correcto funcionamiento:
+
+✅ Requerimientos Funcionales
+
+Los requerimientos funcionales representan todo aquello que el sistema debe hacer para cumplir con su propósito. En mi caso, me enfoqué en que el sistema permita registrar y mostrar datos de forma clara y eficiente. Los principales son:
+
+Registro de personas: El sistema permite agregar nuevas personas ingresando su nombre, apellido y edad a través de un formulario. Al presionar el botón “Agregar” o “Ingresar”, los datos se almacenan en la base de datos.
+
+Visualización en tabla: Todos los registros ingresados se muestran en una tabla que incluye las columnas: ID, nombre, apellido y edad. Esta tabla se actualiza automáticamente al agregar un nuevo registro.
+
+Generación automática de ID: Cada persona registrada recibe un identificador único (ID) generado automáticamente, que se incrementa con cada nuevo ingreso.
+
+Validación de campos: Antes de guardar un registro, el sistema valida que los campos no estén vacíos. Si falta algún dato, no se permite el envío.
+
+Mensajes de confirmación: Al agregar correctamente un registro o al establecer la conexión con la base de datos, el sistema muestra mensajes como “Conexión exitosa” o “Nuevo registro agregado exitosamente”.
+
+Soporte para nombres repetidos: El sistema permite ingresar personas con el mismo nombre o apellido sin generar errores.
+
+Dos formularios funcionales: Incluye dos formularios de ingreso de datos funcionales (uno principal y uno alternativo), ambos válidos para guardar personas.
+
+⚙️ Requerimientos No Funcionales
+
+Los requerimientos no funcionales definen cómo debe funcionar el sistema, considerando aspectos de calidad, rendimiento y experiencia del usuario. Para este proyecto consideré los siguientes:
+
+Usabilidad: La interfaz es simple, clara y fácil de usar. No se requiere experiencia técnica para entender cómo registrar personas.
+
+Rendimiento: El sistema responde a las acciones del usuario en menos de 2 segundos, lo cual lo hace ágil y eficiente.
+
+Disponibilidad: El sistema está diseñado para estar disponible la mayor parte del tiempo, especialmente en horarios laborales, con una disponibilidad estimada del 99%.
+
+Confiabilidad: Una vez que un registro se guarda correctamente, permanece en la base de datos y se mantiene incluso si se recarga la página.
+
+Escalabilidad: Aunque es un sistema sencillo, puede soportar al menos 1000 registros sin afectar el rendimiento.
+
+Compatibilidad: Funciona correctamente en los navegadores más comunes como Google Chrome, Firefox, Edge y Safari.
+
+Seguridad en entrada de datos: Se controla que los campos no contengan entradas maliciosas, como scripts o código que pueda dañar el sistema o la base de datos.
+
+Mantenibilidad: El sistema está programado de forma clara, con código modular y organizado, pensado para poder ser modificado o mejorado fácilmente en el futuro.
+
+Soporte para caracteres especiales: Se garantiza el correcto funcionamiento con letras en español como la ñ, tildes y otros caracteres especiales.
+
+🧩 Conclusión
+
+Estos requerimientos me ayudaron a definir claramente el alcance y la calidad esperada del sistema. Al cumplirlos, me aseguré de que el proyecto no solo hiciera lo que se espera (funcionalidad), sino que también lo hiciera bien (calidad). El resultado es una aplicación sencilla, práctica y fácil de usar para registrar y gestionar personas.
